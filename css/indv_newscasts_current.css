@@ -1,0 +1,117 @@
+.navbar-default {
+    /*background-color: linear-gradient(#F0F0F0);/*F0F0F0;E68E50*/
+}
+body{
+    background-color: rgb(4,42,85);/*#ff6a00;/*555;*/
+    margin-top:51px;
+    margin-right:auto;
+}
+span {
+ color: orange;
+}
+.video {
+	margin-right: auto;
+	margin-left:10px;
+	margin-top: -20px;
+	
+}
+.jumbotron{
+	margin-left: 10px auto;
+	margin-right: 10px auto;
+	background: rgb(4,42,85);
+    background: -o-linear-gradient(rgb(35,35,35),rgb(4,42,85)); 
+	background: -webkit-linear-gradient(rgb(35,35,35),rgb(4,42,85)); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(rgb(35,35,35),rgb(4,42,85)); 
+	/* options for gradient are: #F0F0F0, #FF6A00, and #333 or #555,  rgb(4,42,85)*/
+}
+.jumbotron .container{
+	padding: 20px;
+}
+.well{
+	width:80%;
+	opacity: .9;
+	
+}
+.description{
+	width:85%;
+	margin-left: auto;
+	margin-top: -70px;
+	/*clear: both;
+	align-content: auto;*/
+}
+#outside{
+	width:100%;
+}
+.myBtn{
+	padding:0px 10px -5px 20px;/*
+	padding-top: 0px; 
+	padding-bottom: -100px;
+	padding-left: 0px;
+	padding-right: 10px;
+	margin-bottom: -50px;*/
+}
+h1 {
+  font-size: 48px;  
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-variant: ;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;  
+  font-family: 'Shift', sans-serif;
+  font-style: normal;
+    font-weight: normal;
+	margin-top: -10px;
+  }
+h3 {
+    font-family: 'Shift', sans-serif;
+    font-size:28px;
+    font-style: normal;
+    font-weight: normal;
+}
+h4 {
+    font-family: 'Shift', sans-serif;
+    font-size:24px;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+h5 {
+    font-family: 'Shift', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+	padding-left: 10px;
+}
+h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: inherit;
+}
+p {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+}
+#center {
+text-align: center;
+}
+#indent {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#left{
+	float: left;
+}
+#right {
+	float: right;
+}
+footer p{
+	max-width:300px;
+	margin-left: auto;
+	margin-right:auto; 
+	text-align:center;
+}

@@ -1,0 +1,25 @@
+#page .container{
+		padding: 20px;
+}
+body{ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAQ0lEQVQIW12MwQ0AIAjEvAlgMJ1WB4MJ0CMhUfkQGlq0M2YWqgpuERkAVh4/jIiOMuqT0N3noxdkAamd5g2Zz9QPaWzl3UbudHOt5AAAAABJRU5ErkJggg==) repeat;
+}
+
+.divider {
+	max-width: 710px;
+	width: 100%;
+	height: 2px;
+	margin: 50px auto;
+	background: url('../images/divider.png') no-repeat center;
+	background-size: 100% 2px;
+}
+#page {
+	margin-top: 0px;
+	width: 50%;	
+	max-width: 960px;
+	background: url('../images/page-bg.png');
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 9px 2px #555;
+	-moz-box-shadow: 0px 0px 9px 2px #555;
+	-o-box-shadow: 0px 0px 9px 2px #555;
+	box-shadow: 0px 0px 9px 2px #555;
+}

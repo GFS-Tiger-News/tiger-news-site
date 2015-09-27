@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bootstrap 101 Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<style>
+		body {
+			margin-top: 70px;
+			background: #1b4
+		}
+		.jumbotron{
+			height: auto;
+			min-height:550px;
+			background: #5F4
+		}
+		#background{
+
+		}
+		.something1{
+			height:auto;
+			width: 100%;
+			background-image: url(../../images/widescreen_tiger-wide.jpg);
+		}
+		#carousel-example-generic {
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%;
+			height: auto;
+		}
+		#carousel-example-generic img .one{
+			 height: auto;
+			width: inherit;
+			opacity: 0;
+		}
+		.mycarcaptions {
+			position: inherit;
+			bottom:20px;
+			background: #5a5a5a;
+			background: rgba(91, 91, 91, .5);
+			width: auto;
+			height: auto;
+		}
+		.mycarcaptions a{
+			margin: 20px;
+		}
+		.mycarcaptions h1 {
+			font-size: 3em;
+			font-family: Georgia, serif;
+			font-weight: bold;
+			font-variant: small-caps;
+		}
+		.mycarcaptions h2 {
+			font-size: 2em;
+			font-family: 'Shift', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+		}
+		.mycarcaptions h3 {
+			font-family: 'Shift', sans-serif;
+			font-size: 28px;
+			font-style: normal;
+			font-weight: normal;
+		}
+		.mycarcaptions h4 {
+			font-family: 'Shift', sans-serif;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: normal;
+		}
+		.mycarcaptions h5 {
+			font-family: 'Shift', sans-serif;
+			font-size: 20px;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: normal;
+		}
+		.mycarcaptions h6 {
+			font-size: 16px;
+			font-style: normal;
+			font-weight: normal;
+			font-family: inherit;
+		}
+		.jumbotron span{
+			color: orange;
+		}
+		.mycarcaptions span{
+			color:orange;
+		}
+		p {
+			font-size: 14px;
+			font-style: italic;
+			font-weight: normal;
+		}
+		#slidebtn .active {
+			background-color:red;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!--<div class="jumbotron">-->
+	<div class="container theme-showcase something1">
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="7000" data-wrap="true">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active" id="slidebtn"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1" id="slidebtn"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2" id="slidebtn"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" height="500px" width="80%">
+				<div class="item active">
+					<img src="../../images/tiger_carousel_pic.png">
+					<div class="carousel-caption">
+						<div class="container mycarcaptions">
+							<h1>The <span>GFS</span> Tiger <span>News</span></h1>
+							<div>
+								<h2>Germantown Friends School's Newscast Club</h2>
+								<p></p>
+								<a class="btn btn-primary" href="indvnc_nov_season2.html">Watch the latest Newscast</a>
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="http://media1.santabanta.com/full1/Animals/Tigers/tigers-45a.jpg" alt="a wet tiger">
+					<div class="carousel-caption"></div>
+				</div>
+				<div class="item" id="background">
+					<img src="../../images/tiger_carousel_pic.png">
+					<div class="carousel-caption"></div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev" id="carcontrol">
+				<span class="icon-prev"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" data-slide="next" id="carcontrol">
+				<span class="icon-next"></span>
+			</a>
+		</div>
+
+	</div>
+	<!--</div>-->
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

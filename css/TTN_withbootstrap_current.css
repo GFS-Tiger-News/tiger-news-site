@@ -1,0 +1,78 @@
+.navbar {
+    background-color: #F0F0F0;
+}
+.navbar-brand{
+	border:0;
+}
+body{
+    background-color: #f7f7f7;
+    margin-top:58px;
+    margin-right:auto;
+}
+span {
+ color: orange;
+}
+#jdate{
+    display:none;
+}
+#contactussmooth{
+	margin-top:-20px;
+}
+h1 {
+  font-size: 48px;  
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+h2 {
+  font-size: 36px;  
+  font-family: 'Shift', sans-serif;
+  font-style: normal;
+    font-weight: normal;
+  }
+h3 {
+    font-family: 'Shift', sans-serif;
+    font-size:28px;
+    font-style: normal;
+    font-weight: normal;
+}
+h4 {
+    font-family: 'Shift', sans-serif;
+    font-size:24px;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+h5 {
+    font-family: 'Shift', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+}
+h6 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: inherit;
+}
+p {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+}
+#center {
+text-align: center;
+}
+#indent {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+	
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-family: inherit;
+	color:inherit;
+}
